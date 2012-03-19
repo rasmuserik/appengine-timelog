@@ -26,7 +26,7 @@ def process():
         value = form["value"].value
         key_name = name + str(id)
         if not Entry.get_by_key_name(key_name) is None:
-            return '{error: "Name/id combination already exists"}'
+            return '{error:"Name/id combination already exists",id:%d}' % (id,)
         entry = Entry(
             name = name,
             id = id,

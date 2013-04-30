@@ -1,4 +1,4 @@
-# Server backend for timelog app
+# ![logo](https://solsort.com/_logo.png) Server backend for timelog app
 
 Deployed at https://rasmuserik-timelog.appspot.com/
 
